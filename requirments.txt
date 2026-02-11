@@ -1,31 +1,32 @@
-langchain
-langchain-community
-langchain-openai
-crewai
-autogen-agentchat
+# Core HTTP
+requests
 
+# Pinecone Vector DB
 pinecone-client
 
+# Embeddings
 sentence-transformers
 
+# PDF & Web Parsing
 pypdf
 pdfplumber
 unstructured
 beautifulsoup4
-requests
 
-llama-index
-
+# Data Science
 numpy
 pandas
 scikit-learn
-matplotlib
 
+# RAG Helpers (optional but recommended)
+llama-index
+
+# UI (optional)
 streamlit
-gradio
 fastapi
 uvicorn
 
+# Environment
 python-dotenv
 tqdm
 rich
