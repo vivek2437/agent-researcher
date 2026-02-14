@@ -2,7 +2,7 @@
 requests
 
 # Pinecone Vector DB
-pinecone-client
+pinecone
 
 # Embeddings
 sentence-transformers

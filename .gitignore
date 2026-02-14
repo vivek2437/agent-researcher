@@ -102,3 +102,61 @@ docker-compose.override.yml
 # =========================
 .streamlit/
 gradio_cached_examples/
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+agents/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+.streamlit/config.toml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data / PDFs (Optional)
+# =========================
+data/
+pdfs/
+*.pdf
+
+# =========================
+# Pinecone / Cache
+# =========================
+.cache/
